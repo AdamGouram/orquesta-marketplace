@@ -1,0 +1,28 @@
+{
+  "name": "orquesta-mod",
+  "displayName": "Orquesta (mod)",
+  "version": "0.1.0",
+  "description": "Fija el modelo de cada agente de Orquesta con un tope configurable y añade /orquesta-coste. Solo Claude Code 2.1.287 o posterior.",
+  "author": {
+    "name": "Adam Gouram"
+  },
+  "license": "MIT",
+  "keywords": ["modelos", "coste", "agentes"],
+  "userConfig": {
+    "nivel_maximo": {
+      "type": "string",
+      "title": "Modelo máximo",
+      "description": "El modelo más caro que pueden usar los agentes de Orquesta.",
+      "options": ["opus", "fable"],
+      "default": "opus"
+    },
+    "max_paralelo": {
+      "type": "number",
+      "title": "Agentes a la vez",
+      "description": "Cuántos agentes de Orquesta pueden trabajar a la vez.",
+      "default": 3,
+      "min": 1,
+      "max": 8
+    }
+  }
+}

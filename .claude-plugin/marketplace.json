@@ -1,0 +1,24 @@
+{
+  "name": "orquesta-marketplace",
+  "description": "Orquesta: planifica cada petición con evidencia y la reparte entre agentes con el modelo más barato que la resuelve.",
+  "owner": {
+    "name": "AdamGouram",
+    "url": "https://github.com/AdamGouram"
+  },
+  "plugins": [
+    {
+      "name": "orquesta",
+      "source": "./plugins/orquesta",
+      "description": "Skill de planificación con evidencia, 7 agentes especializados y hooks de inicio y cierre. Funciona en chat (solo la skill), Cowork y Claude Code.",
+      "category": "productividad",
+      "tags": ["planificación", "agentes", "coste"]
+    },
+    {
+      "name": "orquesta-mod",
+      "source": "./plugins/orquesta-mod",
+      "description": "Solo Claude Code 2.1.287+: fija el modelo de cada agente de Orquesta con un tope configurable y añade /orquesta-coste.",
+      "category": "productividad",
+      "tags": ["modelos", "coste", "mod"]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "description": "Orquesta: modelo por agente y comando /orquesta-coste",
+  "modules": ["./register.js"]
+}

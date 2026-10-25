@@ -1,0 +1,11 @@
+{
+  "name": "orquesta",
+  "displayName": "Orquesta",
+  "version": "0.1.0",
+  "description": "Analiza cada petición, la escribe en Markdown con evidencia comprobable y reparte las tareas entre agentes con el modelo más barato que las resuelve.",
+  "author": {
+    "name": "Adam Gouram"
+  },
+  "license": "MIT",
+  "keywords": ["planificación", "agentes", "tareas", "coste"]
+}
