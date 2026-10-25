@@ -1,6 +1,6 @@
 ---
 name: rapido
-description: Ejecuta tareas T0 de Orquesta: cambios mecánicos en un archivo con especificación cerrada. Si la tarea no es mecánica, la devuelve sin tocarla.
+description: "Ejecuta tareas T0 de Orquesta: cambios mecánicos en un archivo con especificación cerrada. Si la tarea no es mecánica, la devuelve sin tocarla."
 model: haiku
 effort: low
 maxTurns: 15

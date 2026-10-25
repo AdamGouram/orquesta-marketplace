@@ -1,6 +1,6 @@
 ---
 name: arquitecto
-description: Ejecuta tareas T2 y T3 de Orquesta: arquitectura, requisitos ambiguos, refactors transversales, bugs difíciles, seguridad, pagos o borrado de datos.
+description: "Ejecuta tareas T2 y T3 de Orquesta: arquitectura, requisitos ambiguos, refactors transversales, bugs difíciles, seguridad, pagos o borrado de datos."
 model: opus
 effort: high
 tools: Read, Grep, Glob, Write, Edit, Bash, WebFetch

@@ -1,6 +1,6 @@
 ---
 name: constructor
-description: Ejecuta tareas T1 de Orquesta: cambios en varios archivos siguiendo patrones conocidos, con sus tests. Es el ejecutor por defecto.
+description: "Ejecuta tareas T1 de Orquesta: cambios en varios archivos siguiendo patrones conocidos, con sus tests. Es el ejecutor por defecto."
 model: sonnet
 effort: medium
 maxTurns: 40
