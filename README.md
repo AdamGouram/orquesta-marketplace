@@ -20,8 +20,6 @@ Van separados para que el chat y Cowork no reciban código que no pueden ejecuta
 
 ## Instalación
 
-El repositorio es privado: para instalar desde él hace falta acceso en GitHub (y, en claude.ai, tener GitHub conectado a tu cuenta).
-
 ### Chat de claude.ai y Cowork
 
 En [Customize > Plugins](https://claude.ai/customize/plugins), dentro de claude.ai o de la app de escritorio, elige una de estas dos opciones:
